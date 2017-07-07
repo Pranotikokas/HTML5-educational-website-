@@ -1,0 +1,34 @@
+<form method="post" action="target.php">
+
+   <fieldset>
+       <legend>Your contact details</legend> <!-- Fieldset title -->
+
+       <label for="lastname">What's your last name?</label></br>
+       <input type="text" name="lastname" id="lastname" /></br>
+
+       <label for="firstname">What's your first name?</label></br>
+       <input type="text" name="firstname" id="firstname" /></br>
+
+       <label for="email">What's your email address?</label></br>
+       <input type="email" name="email" id="email" /></br>
+
+   </fieldset>
+
+   <fieldset>
+       <legend>Your wish</legend> <!-- Fieldset title -->
+
+       <p>
+           Make a wish that you would like to come true:</br>
+
+           <input type="radio" name="wish" value="rich" id="rich" /> <label for="rich">Be rich</label></br>
+           <input type="radio" name="wish" value="famous" id="famous" /> <label for="famous">Be famous</label></br>
+           <input type="radio" name="wish" value="intelligent" id="intelligent" /> <label for="intelligent">Be <strong>even more</strong> intelligent</label></br>
+           <input type="radio" name="wish" value="other" id="other" /> <label for="other">Other...</label></br>
+       </p>
+
+       <p>
+           <label for="specs">If "Other", please specify:</label></br>
+           <textarea name="specs" id="specs" cols="40" rows="4"></textarea>
+       </p>
+   </fieldset>
+</form>
